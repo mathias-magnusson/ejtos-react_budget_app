@@ -9,6 +9,7 @@ import Remaining from './components/Remaining';
 import ExpenseList from './components/ExpenseList';
 import AllocationForm from './components/AllocationForm';
 import { AppProvider } from './context/AppContext';
+import CurrencyOption from './components/CurrencyOption';
 
 const App = () => {
     return (
@@ -30,6 +31,9 @@ const App = () => {
                     </div>
 
                     <h3>Allocation</h3>
+                    <div>
+                        <CurrencyOption />
+                    </div>
                     <div>
                         <ExpenseList />
                     </div>
