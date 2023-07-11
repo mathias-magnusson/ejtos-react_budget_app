@@ -28,12 +28,14 @@ const App = () => {
                         <div className='col-sm'>
                             <ExpenseTotal />
                         </div>
+
+                        <div className='col-sm'>
+                        <CurrencyOption />
+                        </div>
                     </div>
 
                     <h3>Allocation</h3>
-                    <div>
-                        <CurrencyOption />
-                    </div>
+
                     <div>
                         <ExpenseList />
                     </div>

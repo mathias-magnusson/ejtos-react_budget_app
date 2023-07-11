@@ -12,4 +12,4 @@ const Remaining = () => {
         </div>
     );
 };
-export default Remaining;
+export default Remaining; 
